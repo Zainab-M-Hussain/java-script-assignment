@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequential Alerts</title>
+    <script>
+        // This function displays the first alert message
+        function showFirstAlert() {
+            alert("JAVASCRIPT Alert !!\nWelcome to JS land...");
+        }
+
+        // This function displays the second alert message
+        function showSecondAlert() {
+            alert("JAVASCRIPT Alert !!\nHappy coding\nprevent this page from creating additional dialogs..");
+        }
+
+        // This function calls both alert functions in sequence
+        function showAlerts() {
+            showFirstAlert();
+            showSecondAlert();
+        }
+    </script>
+</head>
+<body onload="showAlerts()">
+    <h1>Welcome</h1>
+    <p>The page will show two alerts in sequence when it loads.</p>
+</body>
+</html>

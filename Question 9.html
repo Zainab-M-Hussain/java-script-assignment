@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Conversion</title>
+</head>
+<body>
+    <h1>Currency Conversion</h1>
+
+    <script>
+        // Exchange rates
+        var usdToPkr = 104.80;
+        var sarToPkr = 28;
+
+        // Total amount in US dollars and Saudi Riyals
+        var usdAmount = 10;
+        var sarAmount = 25;
+
+        // Convert total currency to Pakistani Rupees in a single expression
+        var totalPkr = (usdAmount * usdToPkr) + (sarAmount * sarToPkr);
+
+        // Display the result in the browser
+        document.write("<p>Total currency in US dollars: $" + usdAmount + "</p>");
+        document.write("<p>Total currency in Saudi Riyals: " + sarAmount + " SAR</p>");
+        document.write("<p>Total currency in Pakistani Rupees: PKR " + totalPkr.toFixed(2) + "</p>");
+    </script>
+</body>
+</html>

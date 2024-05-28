@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Operations</title>
+</head>
+<body>
+    <h1>Arithmetic Operations</h1>
+
+    <script>
+        // Take two numbers as input
+        var num1 = parseFloat(prompt("Enter the first number:"));
+        var num2 = parseFloat(prompt("Enter the second number:"));
+
+        // Perform arithmetic operations
+        var subtraction = num1 - num2;
+        var multiplication = num1 * num2;
+        var division = num1 / num2;
+        var modulus = num1 % num2;
+
+        // Display the results in the browser
+        document.write("<p>Subtraction: " + num1 + " - " + num2 + " = " + subtraction + "</p>");
+        document.write("<p>Multiplication: " + num1 + " * " + num2 + " = " + multiplication + "</p>");
+        document.write("<p>Division: " + num1 + " / " + num2 + " = " + division + "</p>");
+        document.write("<p>Modulus: " + num1 + " % " + num2 + " = " + modulus + "</p>");
+    </script>
+</body>
+</html>

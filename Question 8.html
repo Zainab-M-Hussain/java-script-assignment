@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculator</title>
+</head>
+<body>
+    <h1>Percentage Calculator</h1>
+
+    <script>
+        // Store total marks and marks obtained by the student
+        var totalMarks = 500;
+        var marksObtained = 410;
+
+        // Calculate the percentage
+        var percentage = (marksObtained / totalMarks) * 100;
+
+        // Display the result in the browser
+        document.write("<p>Total marks: " + totalMarks + "</p>");
+        document.write("<p>Marks obtained: " + marksObtained + "</p>");
+        document.write("<p>Percentage: " + percentage.toFixed(2) + "%</p>");
+    </script>
+</body>
+</html>
+

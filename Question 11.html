@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+</head>
+<body>
+    <h1>Age Calculator</h1>
+
+    <script>
+        // Store the current year
+        var currentYear = new Date().getFullYear();
+
+        // Store their birth year
+        var birthYear = 1990; // Assume the birth year is 1990
+
+        // Calculate their age
+        var age = currentYear - birthYear;
+
+        // Output the information to the screen
+        document.write("<p>Current Year: " + currentYear + "</p>");
+        document.write("<p>Birth Year: " + birthYear + "</p>");
+        document.write("<p>Your age is: " + age + " years old</p>");
+    </script>
+</body>
+</html>
+

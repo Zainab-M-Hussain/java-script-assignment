@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart Checkout</title>
+</head>
+<body>
+    <h1>Shopping Cart Checkout</h1>
+
+    <script>
+        // Store the prices and quantities of items
+        var priceItem1 = 25; // Price of item 1
+        var priceItem2 = 30; // Price of item 2
+        var quantityItem1 = 2; // Ordered quantity of item 1
+        var quantityItem2 = 1; // Ordered quantity of item 2
+
+        // Calculate the subtotal
+        var subtotal = (priceItem1 * quantityItem1) + (priceItem2 * quantityItem2);
+
+        // Define shipping charges
+        var shippingCharges = 5;
+
+        // Calculate the total cost including shipping
+        var totalCost = subtotal + shippingCharges;
+
+        // Display the receipt in the browser
+        document.write("<h2>Receipt</h2>");
+        document.write("<p>Price of item 1: $" + priceItem1 + "</p>");
+        document.write("<p>Quantity of item 1: " + quantityItem1 + "</p>");
+        document.write("<p>Price of item 2: $" + priceItem2 + "</p>");
+        document.write("<p>Quantity of item 2: " + quantityItem2 + "</p>");
+        document.write("<p>Subtotal: $" + subtotal + "</p>");
+        document.write("<p>Shipping charges: $" + shippingCharges + "</p>");
+        document.write("<p><strong>Total cost: $" + totalCost + "</strong></p>");
+    </script>
+</body>
+</html>

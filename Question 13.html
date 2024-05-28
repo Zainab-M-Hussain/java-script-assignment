@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifetime Supply Calculator</title>
+</head>
+<body>
+    <h1>Lifetime Supply Calculator</h1>
+
+    <script>
+        // Store your favorite snack
+        var favoriteSnack = "chocolate";
+
+        // Store your current age
+        var currentAge = 30;
+
+        // Store maximum age
+        var maximumAge = 80;
+
+        // Store estimated amount per day
+        var amountPerDay = 2; // Assume you eat 2 chocolates per day
+
+        // Calculate total amount needed for the rest of your life
+        var yearsRemaining = maximumAge - currentAge;
+        var totalAmountNeeded = yearsRemaining * 365 * amountPerDay;
+
+        // Output all the information
+        document.write("<p>Favorite Snack: " + favoriteSnack + "</p>");
+        document.write("<p>Current Age: " + currentAge + "</p>");
+        document.write("<p>Maximum Age: " + maximumAge + "</p>");
+        document.write("<p>Estimated Amount Per Day: " + amountPerDay + " " + favoriteSnack + "(s)</p>");
+        document.write("<p>You will need " + totalAmountNeeded + " " + favoriteSnack + " to last you until the ripe old age of " + maximumAge + ".</p>");
+    </script>
+</body>
+</html>
